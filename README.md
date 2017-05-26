@@ -1,19 +1,27 @@
-# README title
-This is a brief description of what the software does.
+# Doctor Lookup
+This program will allow the user to input a state and a medical issue keyword and return doctors that can treat their issue.
 ### Setup/Installation Requirements
-* list item 1
-* list item 2
-* list item 3
+* clone repo from github
+* visit https://developer.betterdoctor.com/ and sign up to receive an API key
+* create .env file and add in "exports.apiKey = 'API key that you received'"
+* run the command "npm install gulp" in the terminal
+* run the command "bower install" in the terminal
+* run the command "npm install" in the terminal
 ### Known Bugs
-List known bugs or issues here
+There a no known bugs for this project. Please create a pull request or send me an email if any bugs are found
 ### Technologies Used
-* Tech 1
-* Tech 2
-* Tech 3
-### By Authors
+* HTML
+* CSS
+* Javascript
+* Node
+* Bower
+* Npm
+### Created by
+* Jason Ainsworth
 ### Support and contact details
+* Link to github: https://github.com/jaybones90
+* You can reach me at jasoncruze@gmail.com
 _contact info here_
 ### License
 _MIT_
-Copyright (c) _year_ **Author or Organization**
-
+Copyright (c) _2017_ **Jason Ainsworth**

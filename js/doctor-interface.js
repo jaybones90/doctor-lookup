@@ -39,7 +39,6 @@ function openInNewTab(url) {
 };
 
 
-
 $(document).ready(function(){
   $('#all-doctors').hide();
   var doctor = new Doctor();
