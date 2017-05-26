@@ -3,7 +3,7 @@ This program will allow the user to input a state and a medical issue keyword an
 ### Setup/Installation Requirements
 * clone repo from github
 * visit https://developer.betterdoctor.com/ and sign up to receive an API key
-* create .env file and add in "exports.apiKey = 'API key that you received'"
+* create .env file and add in "exports.apiKey = 'API key that you received'" *make sure to put your .env file in the .gitignore file so that your api key doesn't get made public*
 * run the command "npm install gulp" in the terminal
 * run the command "bower install" in the terminal
 * run the command "npm install" in the terminal
