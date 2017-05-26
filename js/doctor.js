@@ -10,4 +10,11 @@ Doctor.prototype.getDoctors = function(state, userQuery, displayAllDoctors) {
   });
 };
 
+Doctor.prototype.findDoctor = function(doctorId, displayDoctor) {
+  console.log(doctorId)
+  $.get(`https://api.betterdoctor.com/2016-03-01/doctors/npi/${doctorId}?user_key=${apiKey}`).then(function(response){
+    displayDoctor(response.data)
+  });
+};
+
 exports.doctorModule = Doctor;

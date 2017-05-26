@@ -2,13 +2,18 @@
 var Doctor = require('./../js/doctor.js').doctorModule;
 
 var displayAllDoctors = function(allDoctors) {
+  var doctor = new Doctor();
   allDoctors.forEach(function(doctor){
-    $('#doctor-info').append(`<h4> Doctors Name: ${doctor.profile.first_name} ${doctor.profile.last_name} <h4>`)
+    $('#doctor-info ul').append(`<li class="click-doctor" value="${doctor.npi}"> Doctor: ${doctor.profile.first_name} ${doctor.profile.last_name} </li> `);
+    });
+    $('.click-doctor').click(function(){
+      doctorId = $(this).val();
+      doctor.findDoctor(doctorId, displayDoctor);
+  });
+};
 
-
-  doctor.profile.first_name
-
-  })
+var displayDoctor = function(doctor) {
+  console.log(doctor);
 };
 
 
