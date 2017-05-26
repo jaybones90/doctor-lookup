@@ -1,5 +1,5 @@
 # Doctor Lookup
-This program will allow the user to input a state and a medical issue keyword and return doctors that can treat their issue.
+This program will allow the user to input a state and a medical issue keyword and returns doctors that can treat their issue.
 ### Setup/Installation Requirements
 * clone repo from github
 * visit https://developer.betterdoctor.com/ and sign up to receive an API key
@@ -21,7 +21,6 @@ There a no known bugs for this project. Please create a pull request or send me 
 ### Support and contact details
 * Link to github: https://github.com/jaybones90
 * You can reach me at jasoncruze@gmail.com
-_contact info here_
 ### License
 _MIT_
 Copyright (c) _2017_ **Jason Ainsworth**
