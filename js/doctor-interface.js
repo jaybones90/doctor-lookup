@@ -17,7 +17,6 @@ var displayAllDoctors = function(allDoctors) {
 };
 
 var displayDoctor = function(doctor) {
-  console.log(doctor);
   $('#doctor-info').append(`
     <h3> ${doctor.profile.first_name} ${doctor.profile.last_name}</h3>
     <h4>${doctor.specialties[0].description}</h4>
@@ -47,8 +46,7 @@ var displayDoctor = function(doctor) {
          ${practice.visit_address.zip}
         <li> Phone Number: ${practice.phones[0].number} </li>
         <a href="${practice.website}">Visit website</a>
-        `)
-
+        `);
     });
   });
 };
@@ -56,8 +54,7 @@ var displayDoctor = function(doctor) {
 function openInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
-};
-
+}
 
 $(document).ready(function(){
   $('#all-doctors').hide();
